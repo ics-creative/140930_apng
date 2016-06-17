@@ -29,7 +29,14 @@ p {
 	text-align: center
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 970px) {
+	#container img,
+	#container canvas {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 710px) {
 	#container img,
 	#container canvas {
 		width: 100%;
